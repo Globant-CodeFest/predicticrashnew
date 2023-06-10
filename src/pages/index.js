@@ -5,20 +5,26 @@ import Search from "@/components/Search";
 import { useEffect, useState } from "react";
 import getRankingCountries from "@/services/getRankingCountries";
 import Button from "@/components/Button";
+import getRankingDisaster from "../services/getrankingcountries";
 
 export default function Home() {
   const [rankingCountries, setRankingCountries] = useState(null)
+  const [rankingDisaster, setRankingDisaster] = useState(null)
 
   useEffect(() => {
     getRankingCountries()
     .then(setRankingCountries)
   }, [])
-  console.log(rankingCountries)
 
-  if(rankingCountries) return (
+  useEffect(() => {
+    getRankingDisaster()
+    .then(setRankingDisaster)
+  }, [])
+
+  if(rankingCountries) return ( 
     <>
       <Nav />
-      <DataCard rankingCountries={rankingCountries} />
+      <DataCard rankingCountries={rankingCountries}  rankingDisaster={rankingDisaster} />
       <Earth />
       <Search />
       <Button text="Search" action={() => console.log("Hola")} />
