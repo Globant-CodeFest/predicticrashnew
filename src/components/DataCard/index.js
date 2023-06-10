@@ -7,7 +7,7 @@ const DataCard = ({ rankingCountries, rankingDisaster }) => {
             <div className={styles.card}>
                 <div className={styles.line}>
                     <Image src="/imgs/logo-earth.svg" alt="Logo" width={20} height={20} />
-                    <div className={styles.title}>More affected</div>
+                    <div className={styles.title}>Most affected</div>
                 </div>
                 <div>
                     {
@@ -23,7 +23,7 @@ const DataCard = ({ rankingCountries, rankingDisaster }) => {
             <div className={styles.card}>
                 <div className={styles.line}>
                     <Image src="/imgs/fire.svg" alt="Logo" width={20} height={20} />
-                    <div className={styles.title}>Disasters</div>
+                    <div className={styles.title}>Major disasters</div>
                 </div>
                 <div>
                 {
