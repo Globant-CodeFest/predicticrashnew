@@ -1,0 +1,59 @@
+@import url('https://fonts.google.com/specimen/Patrick+Hand?query=patrick+hand');
+
+html {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+}
+body {
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  width: 100vw;
+  max-width: 490px;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Patrick Hand', sans-serif
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline-color: #37afff;
+  outline-width: 0.1;
+}
+
+textarea:focus {
+  outline-color: #37afff;
+  outline-width: 0.1;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+@media (max-width: 490px) {
+  body {
+    height: 100vh;
+    width: 100vw;
+    /* padding-bottom: 120px; */
+  }
+}

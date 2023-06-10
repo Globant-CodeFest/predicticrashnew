@@ -1,0 +1,71 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  padding: 2% 5%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 165px;
+  height: 125px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 2% 3%
+}
+.title {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 3%;
+}
+.subtitle {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #E4FC4F;
+}
+.number{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+.line {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.foot{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #7D7D7D;
+}

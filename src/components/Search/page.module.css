@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  padding: 2% 5%;
+}
+.title {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 20px;
+  /* identical to box height, or 77% */
+
+
+  color: #FFFFFF;
+}
+.subtitle {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #E4FC4F;
+}
+.number{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+.line {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.foot{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #7D7D7D;
+}
+
+.form {
+  padding: 3% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input {
+  width: 47%;
+}
