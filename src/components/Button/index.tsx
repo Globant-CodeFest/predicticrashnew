@@ -8,9 +8,11 @@ interface Props {
 
 const Button = ({ text, action}: Props) => {
     return(
-        <button className={styles.main} onClick={action}>
-            {text}   
-        </button>
+        <div className={styles.main}>
+            <button className={styles.button} onClick={action}>
+                {text}   
+            </button>
+        </div>
     )
 }
 

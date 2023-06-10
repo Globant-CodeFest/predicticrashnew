@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   background-color: black;
   color: white;
-  padding: 20% 5%;
+  padding: 10% 5%;
 }
 
 

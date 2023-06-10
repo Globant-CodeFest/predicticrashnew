@@ -1,13 +1,18 @@
 .main {
+  width: 100%;
+  padding: 3% 5%;
+  position: fixed;
+  bottom: 0;
+}
+
+.button {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 14px 0px;
-
   width: 359px;
   height: 48px;
-
   background: #2F7AD1;
   border-radius: 4px;
 }

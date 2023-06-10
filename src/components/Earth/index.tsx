@@ -4,7 +4,7 @@ import styles from './page.module.css'
 const Earth = () => {
     return(
         <div className={styles.main}>
-            <Image src="/imgs/earth.svg" alt="Logo" width={400} height={400} />
+            <Image src="/imgs/earth.svg" alt="Logo" width={300} height={300} />
         </div>
     )
 }
