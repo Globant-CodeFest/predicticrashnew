@@ -13,6 +13,8 @@
   padding: 14px 0px;
   width: 359px;
   height: 48px;
-  background: #2F7AD1;
+  background-color: #2F7AD1;
+  border-color: #2F7AD1;
   border-radius: 4px;
+  color: white
 }

@@ -11,7 +11,7 @@ const DataCard = ({ rankingCountries, rankingDisaster }) => {
                 </div>
                 <div>
                     {
-                        rankingCountries.map((country, index) => {
+                        rankingCountries?.map((country, index) => {
                             return (
                                 <div key={index} className={styles.countries}>{country.Country}</div>
                             )
@@ -27,7 +27,7 @@ const DataCard = ({ rankingCountries, rankingDisaster }) => {
                 </div>
                 <div>
                 {
-                        rankingDisaster.map((disaster, index) => {
+                        rankingDisaster && rankingDisaster?.map((disaster, index) => {
                             return (
                                 <div key={index} className={styles.countries}>{disaster.Disastertype}</div>
                             )
