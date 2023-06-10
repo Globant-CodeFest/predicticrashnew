@@ -25,7 +25,7 @@
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   color: #FFFFFF;
   flex: none;
@@ -38,6 +38,17 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #E4FC4F;
+}
+.countries {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
   line-height: 17px;
   /* identical to box height */
 
